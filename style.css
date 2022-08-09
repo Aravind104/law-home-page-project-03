@@ -1,0 +1,111 @@
+:root{
+    --primary-color:#2B211B;
+    --light-white-color:#EDCDB9;
+    --white-color:#fff;
+    --dark-yellow:#A77B06;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: url(./assets/judge.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding:1rem 6rem;
+}
+
+.list{
+    list-style-type: none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.list .list-item{
+    color:var(--light-white-color);
+    font-family: 'Nunito',sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.list li:nth-child(1){
+    color: var(--white-color);
+}
+
+.button-small{
+    border: 1px solid var(--dark-yellow);
+    padding:0.8rem 1.5rem;
+    color: var(--dark-yellow);
+    background:transparent;
+    border-radius: 1rem;
+    cursor:pointer;
+}
+
+/* Hero */
+
+.hero{
+    width: 100%;
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.top-main{
+    display: flex;
+    background: var(--primary-color);
+    justify-content:space-between;
+    height:30vh;
+    width:100%;
+    padding: 3rem 6rem;
+}
+
+.top-main .hero-heading{
+    flex: 0.4;
+    font-size: 3rem;
+    font-family: 'Secular one' sans-serif;
+    color: var(--white-color);
+    font-weight: 900;
+}
+
+.top-main p{
+    flex: 0.3;
+    font-size: 1.2rem;
+    font-family: 'Nunito',sans-serif;
+    color: var(--light-white-color);
+}
+
+.bottom-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+    
+.bottom-container i {
+    padding: 0.8rem 1.4rem;
+    margin-left: 0.5rem;
+    background-color: var(--dark-yellow);
+    color: var(--white-color);
+    cursor: pointer;
+}

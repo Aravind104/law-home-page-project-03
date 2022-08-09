@@ -11,3 +11,5 @@ In this project of creating static landing page for law site i learnt and used t
 > Here's the glimpse of project pic
 
 ![project-03](./assets/project-03.png)
+
+live-link: [law-home-page](https://law-home-page-project-03.netlify.app/)
